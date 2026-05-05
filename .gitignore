@@ -1,0 +1,17 @@
+# Environment
+.env
+
+# Hardhat
+artifacts/
+cache/
+dist/
+
+# Node
+node_modules/
+
+# Deployments (keep alfajores.json but ignore local)
+deployments/localhost.json
+
+# Coverage
+coverage/
+coverage.json
