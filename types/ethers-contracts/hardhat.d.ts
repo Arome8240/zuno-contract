@@ -10,13 +10,17 @@ import * as Contracts from "./index.js";
 
 declare module "@nomicfoundation/hardhat-ethers/types" {
   interface HardhatEthersHelpers extends HardhatEthersHelpersBase {
-  getContractFactory(name: 'ZunoProfile', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ZunoProfile__factory>
+  getContractFactory(name: 'ZunoGigs', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ZunoGigs__factory>
+getContractFactory(name: 'ZunoProfile', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ZunoProfile__factory>
 
-  getContractAt(name: 'ZunoProfile', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ZunoProfile>
+  getContractAt(name: 'ZunoGigs', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ZunoGigs>
+getContractAt(name: 'ZunoProfile', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ZunoProfile>
 
-  deployContract(name: 'ZunoProfile', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoProfile>
+  deployContract(name: 'ZunoGigs', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoGigs>
+deployContract(name: 'ZunoProfile', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoProfile>
 
-  deployContract(name: 'ZunoProfile', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoProfile>
+  deployContract(name: 'ZunoGigs', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoGigs>
+deployContract(name: 'ZunoProfile', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoProfile>
 
     // default types
     getContractFactory(
