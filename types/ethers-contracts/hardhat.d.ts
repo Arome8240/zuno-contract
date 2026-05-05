@@ -10,13 +10,13 @@ import * as Contracts from "./index.js";
 
 declare module "@nomicfoundation/hardhat-ethers/types" {
   interface HardhatEthersHelpers extends HardhatEthersHelpersBase {
-  getContractFactory(name: 'Lock', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.Lock__factory>
+  getContractFactory(name: 'ZunoProfile', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ZunoProfile__factory>
 
-  getContractAt(name: 'Lock', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.Lock>
+  getContractAt(name: 'ZunoProfile', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ZunoProfile>
 
-  deployContract(name: 'Lock', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Lock>
+  deployContract(name: 'ZunoProfile', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoProfile>
 
-  deployContract(name: 'Lock', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Lock>
+  deployContract(name: 'ZunoProfile', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoProfile>
 
     // default types
     getContractFactory(
