@@ -2,6 +2,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export * as zunoEscrowSol from './ZunoEscrow.sol/index.js';
+export * as zunoReviewsSol from './ZunoReviews.sol/index.js';
 export * as mocks from './mocks/index.js';
 export { ZunoGigs__factory } from './ZunoGigs__factory.js';
 export { ZunoProfile__factory } from './ZunoProfile__factory.js';

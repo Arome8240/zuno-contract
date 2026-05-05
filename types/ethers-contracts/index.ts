@@ -3,6 +3,8 @@
 /* eslint-disable */
 import type * as zunoEscrowSol from './ZunoEscrow.sol/index.js';
 export type { zunoEscrowSol };
+import type * as zunoReviewsSol from './ZunoReviews.sol/index.js';
+export type { zunoReviewsSol };
 import type * as mocks from './mocks/index.js';
 export type { mocks };
 export type { ZunoGigs } from './ZunoGigs.js';
@@ -14,5 +16,9 @@ export type { ZunoEscrow } from './ZunoEscrow.sol/ZunoEscrow.js';
 export { ZunoEscrow__factory } from './factories/ZunoEscrow.sol/ZunoEscrow__factory.js';
 export { ZunoGigs__factory } from './factories/ZunoGigs__factory.js';
 export { ZunoProfile__factory } from './factories/ZunoProfile__factory.js';
+export type { IZunoEscrow } from './ZunoReviews.sol/IZunoEscrow.js';
+export { IZunoEscrow__factory } from './factories/ZunoReviews.sol/IZunoEscrow__factory.js';
+export type { ZunoReviews } from './ZunoReviews.sol/ZunoReviews.js';
+export { ZunoReviews__factory } from './factories/ZunoReviews.sol/ZunoReviews__factory.js';
 export type { MockCUSD } from './mocks/MockCUSD.js';
 export { MockCUSD__factory } from './factories/mocks/MockCUSD__factory.js';
