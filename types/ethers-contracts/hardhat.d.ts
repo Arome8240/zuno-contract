@@ -18,6 +18,7 @@ getContractFactory(name: 'ZunoGigs', signerOrOptions?: ethers.Signer | FactoryOp
 getContractFactory(name: 'ZunoProfile', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ZunoProfile__factory>
 getContractFactory(name: 'IZunoEscrow', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.IZunoEscrow__factory>
 getContractFactory(name: 'ZunoReviews', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ZunoReviews__factory>
+getContractFactory(name: 'ZunoTreasury', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ZunoTreasury__factory>
 getContractFactory(name: 'MockCUSD', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MockCUSD__factory>
 
   getContractAt(name: 'IZunoEscrowDispute', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.IZunoEscrowDispute>
@@ -28,6 +29,7 @@ getContractAt(name: 'ZunoGigs', address: string | ethers.Addressable, signer?: e
 getContractAt(name: 'ZunoProfile', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ZunoProfile>
 getContractAt(name: 'IZunoEscrow', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.IZunoEscrow>
 getContractAt(name: 'ZunoReviews', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ZunoReviews>
+getContractAt(name: 'ZunoTreasury', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ZunoTreasury>
 getContractAt(name: 'MockCUSD', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MockCUSD>
 
   deployContract(name: 'IZunoEscrowDispute', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IZunoEscrowDispute>
@@ -38,6 +40,7 @@ deployContract(name: 'ZunoGigs', signerOrOptions?: ethers.Signer | DeployContrac
 deployContract(name: 'ZunoProfile', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoProfile>
 deployContract(name: 'IZunoEscrow', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IZunoEscrow>
 deployContract(name: 'ZunoReviews', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoReviews>
+deployContract(name: 'ZunoTreasury', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoTreasury>
 deployContract(name: 'MockCUSD', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MockCUSD>
 
   deployContract(name: 'IZunoEscrowDispute', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IZunoEscrowDispute>
@@ -48,6 +51,7 @@ deployContract(name: 'ZunoGigs', args: any[], signerOrOptions?: ethers.Signer | 
 deployContract(name: 'ZunoProfile', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoProfile>
 deployContract(name: 'IZunoEscrow', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IZunoEscrow>
 deployContract(name: 'ZunoReviews', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoReviews>
+deployContract(name: 'ZunoTreasury', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ZunoTreasury>
 deployContract(name: 'MockCUSD', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MockCUSD>
 
     // default types
